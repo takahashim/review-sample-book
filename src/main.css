@@ -189,6 +189,9 @@ div.image img {
     padding: 0;
     display: block;
 }
+div.cover-image img {
+    width: 100%;
+}
 div.image p.caption {
     margin: 0 auto;
     text-align: center;
