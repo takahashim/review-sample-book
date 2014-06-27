@@ -35,6 +35,7 @@ description:
 coverfile: _cover.html
 # coverimage: 表紙用画像ファイル
 coverimage: cover.jpg
+#titlepage: true
 # 固有IDに使用するドメイン
 urnid: http://tatsu-zine.com/books/review-sample-book/1.0.0/
 # CSSファイル (yamlファイルおよびReVIEWファイルを置いたディレクトリにあること
@@ -45,6 +46,9 @@ toclevel: 2
 secnolevel: 3
 # review-compileに渡すパラメータ
 params: --stylesheet=main.css
+epubversion: 3
+# HTMLのバージョン(現時点では4または5。デフォルトは4。epubversionを3にした場合は自動で5に設定される)
+htmlversion: 5
 # 目次生成用？
 mytoc: true
 # 奥付生成用
