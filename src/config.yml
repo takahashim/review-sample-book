@@ -53,6 +53,7 @@ htmlversion: 5
 mytoc: true
 # 奥付生成用
 colophon: true
+appendix_format: roman
 texstyle: samplemacro
 pubhistory: |
   2011年08月03日 v1.0.0版発行
